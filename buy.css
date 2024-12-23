@@ -1,0 +1,62 @@
+/* Buy Now Button */
+.buy-now-btn {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #357ab8;
+  }
+  
+  /* Buy Now Form */
+  .buy-now-form {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    max-width: 300px;
+  }
+  
+  .buy-now-form h4 {
+    margin-bottom: 10px;
+  }
+  
+  .buy-now-form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .buy-now-form input,
+  .buy-now-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buy-now-form button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buy-now-form button:hover {
+    background-color: #357ab8;
+  }
+  

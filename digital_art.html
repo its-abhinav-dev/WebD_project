@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Art Gallery</title>
+  <link rel="stylesheet" href="painting.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header">
+    <h1>Interactive Art Gallery</h1>
+    <p>Explore artworks by medium, year, or style</p>
+</div>
+  </header>
+  <a href="amitbhar.html"></a>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <a href="index.html">
+    <button class="filter-btn active" data-category="all">All</button>
+  </a>
+  <a href="paintings.html">
+    <button class="filter-btn" data-category="painting">Paintings</button>
+  </a>
+  <a href="sculptures.html">
+    <button class="filter-btn" data-category="sculpture">Sculptures</button>
+  </a>
+  <a href="digital_art.html">
+    <button class="filter-btn" data-category="digital">Digital Art</button>
+  </a>
+    <div class="filter-btns">
+    <button class="filter-btn" data-category="abstract">Artists</button>
+    <div class="artist-list">
+        <ul>
+            <li><a href="amitBhar.html">Amit Bhar</a></li>
+            <li><a href="sujjataAchrekar.html">Sujata Achrekar</a></li>
+            <li><a href="raviVarma.html">Vinita Karim</a></li>
+          
+          </ul>
+    </div>
+</div>
+
+</div>
+
+  <!-- Gallery -->
+   <h2 class="abstract">Digital Art</h2>
+   <div class="divider"></div>
+
+  <section class="painting-section">
+    <section>
+    <div class="painting-grid">
+        <div class="painting-item">
+            <img src="https://static.vecteezy.com/system/resources/previews/023/505/063/non_2x/generative-ai-illustration-of-an-enthusiastic-young-women-wearing-virtual-reality-goggles-is-inside-the-metaverse-metaverse-concept-and-virtual-world-elements-games-and-entertainment-of-the-digital-photo.jpg" alt="Abstract Landscape">
+            <h3>Modern Art</h3>
+            <p>Medium: Graphics Tablets and Styluses | Dimensions: 30x40 inches | Year: 2024</p>
+            <p>Price: ₹1,500</p>
+            <button class="buy-now-btn">Buy Now</button>
+        </div>
+        <div class="painting-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1vLjz23ktG7UAY0QCX829cCsaZbro3nT2Aw&s" alt="Abstract Landscape">
+          <h3>Modern Art</h3>
+          <p>Medium: Digital Painting Software | Dimensions: 30x40 inches | Year: 2024</p>
+          <p>Price: ₹2,500</p>
+          <button class="buy-now-btn">Buy Now</button>
+      </div>
+      <div class="painting-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwu1UE0hPYY0bwEOkGv28Z4Sxap9qURtm_IA&s" alt="Abstract Landscape">
+        <h3>Modern Art</h3>
+        <p>Medium: Generative Art | Dimensions: 30x40 inches | Year: 2024</p>
+        <p>Price: ₹1,000</p>
+        <button class="buy-now-btn">Buy Now</button>
+    </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="painting-section">
+    <section>
+    <div class="painting-grid">
+        <div class="painting-item">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/kxdl3m80/wall-decoration/g/7/s/digital-digital-art-artwork-illustration-drawing-hd-wallpaper-original-imag9uh5hkfzfzgu.jpeg?q=20&crop=false" alt="Abstract Landscape">
+            <h3>Modern Art</h3>
+            <p>Medium: Digital Mixed Media | Dimensions: 30x40 inches | Year: 2024</p>
+            <p>Price: ₹1,500</p>
+            <button class="buy-now-btn">Buy Now</button>
+        </div>
+        <div class="painting-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSikeH1OTB56-YujH-3NXjvjYV5OxAXAxT0TA&s" alt="Abstract Landscape">
+          <h3>Modern Art</h3>
+          <p>Medium: Photo Manipulation and Collage | Dimensions: 30x40 inches | Year: 2024</p>
+          <p>Price: ₹3,500</p>
+          <button class="buy-now-btn">Buy Now</button>
+      </div>
+      <div class="painting-item">
+        <img src="https://blog.pixlr.com/wp-content/uploads/2021/04/02-Final-Surreal-Paint-Drip-Effect-.jpg" alt="Abstract Landscape">
+        <h3>Modern Art</h3>
+        <p>Medium: Vector Art Tools | Dimensions: 30x40 inches | Year: 2024</p>
+        <p>Price: ₹1,000</p>
+        <button class="buy-now-btn">Buy Now</button>
+    </div>
+      </div>
+    </section>
+  </section>
+
+
+
+
+  
+  <!-- Reusable Modal -->
+  <div id="orderModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h4 id="modalTitle">Order Details</h4>
+      <p id="modalDetails"></p>
+      <form id="orderForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" placeholder="Enter your address" required></textarea>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+        
+        <p id="deliveryDate"></p>
+        <button type="submit">Place Order</button>
+      </form>
+    </div>
+  </div>
+  
+   
+  
+
+
+<div class="divider"></div>
+
+  <!-- Get In Touch Section -->
+<section class="get-in-touch">
+  <h2>Get In Touch</h2>
+  <p>For more information or inquiries,</p>
+  <p>Please contact us at:</p>
+  <p><strong>(Phone)</strong> +91 7355639340</p>
+  <div class="social-icons">
+    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHA8a-u1SWwHz3AVpXEnT-aTPbXAPmzkIb2A&s" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx16VdHh2dDEZKu6KDUCXcTmMfqWuPygi-0w&s" alt="Instagram">
+    </a>
+    <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCnQbLJZ3rJAv_wLXuHFJKxTO1GKMS0zhf8Q&s" alt="YouTube">
+    </a>
+    <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+      <img src="https://cdn.icon-icons.com/icons2/4029/PNG/512/twitter_x_new_logo_x_rounded_icon_256078.png" alt="Twitter">
+    </a>
+  </div>
+  <p><strong>(Email)</strong><a href="mailto:abhinav.2428csit816@kiet.edu">abhinav.2428csit816@kiet.edu</a></p>
+  <p><strong>(Email)</strong><a href="mailto:abhinav.2428csit960@kiet.edu">abhinav.2428csit960@kiet.edu</a></p>
+  </section>
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+  <script src="buy.js"></script>
+</body>
+</html>

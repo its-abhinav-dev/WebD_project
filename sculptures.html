@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Art Gallery</title>
+  <link rel="stylesheet" href="painting.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header">
+    <h1>Interactive Art Gallery</h1>
+    <p>Explore artworks by medium, year, or style</p>
+</div>
+  </header>
+  <a href="amitbhar.html"></a>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <a href="index.html">
+    <button class="filter-btn active" data-category="all">All</button>
+  </a>
+  <a href="paintings.html">
+    <button class="filter-btn" data-category="painting">Paintings</button>
+  </a>
+  <a href="sculptures.html">
+    <button class="filter-btn" data-category="sculpture">Sculptures</button>
+  </a>
+  <a href="digital_art.html">
+    <button class="filter-btn" data-category="digital">Digital Art</button>
+  </a>
+
+    <div class="filter-btns">
+    <button class="filter-btn" data-category="abstract">Artists</button>
+    <div class="artist-list">
+        <ul>
+            <li><a href="amitBhar.html">Amit Bhar</a></li>
+            <li><a href="sujjataAchrekar.html">Sujata Achrekar</a></li>
+            <li><a href="raviVarma.html">Vinita Karim</a></li>
+          
+          </ul>
+    </div>
+</div>
+
+</div>
+
+  <!-- Gallery -->
+   <h2 class="abstract">Sculptures</h2>
+   <div class="divider"></div>
+
+  <section class="painting-section">
+    <section>
+    <div class="painting-grid">
+        <div class="painting-item">
+            <img src="https://media.istockphoto.com/id/690407918/photo/head-and-shoulders-detail-of-the-ancient-sculpture.jpg?s=612x612&w=0&k=20&c=dbgHXML1aEqROolTrO40iWFWgMM9bEJvWY6_K8boSGc=" alt="Abstract Landscape">
+            <h3>Sculpture</h3>
+            <p>Material : Marble | Year: 2024</p>
+            <p>Price: ₹4,500</p>
+            <button class="buy-now-btn">Buy Now</button>
+        </div>
+        <div class="painting-item">
+          <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/469927/935812/main-image" alt="Abstract Landscape">
+          <h3>Sculpture</h3>
+          <p>Material : Granite | Year: 2024</p>
+          <p>Price: ₹7,500</p>
+          <button class="buy-now-btn">Buy Now</button>
+      </div>
+      <div class="painting-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVN3eXrlmTxataKcTXAOR0piRkPjKQuipUkQ&s" alt="Abstract Landscape">
+        <h3>Sculpture</h3>
+        <p>Material : Limestone | Year: 2024</p>
+        <p>Price: ₹8,500</p>
+        <button class="buy-now-btn">Buy Now</button>
+    </div>
+      </div>
+    </section>
+  </section>
+
+    <!-- Reusable Modal -->
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h4 id="modalTitle">Order Details</h4>
+        <p id="modalDetails"></p>
+        <form id="orderForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+          
+          <label for="address">Address:</label>
+          <textarea id="address" placeholder="Enter your address" required></textarea>
+          
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" placeholder="Enter your phone number" required>
+          
+          <p id="deliveryDate"></p>
+          <button type="submit">Place Order</button>
+        </form>
+      </div>
+    </div>
+   
+  
+
+
+<div class="divider"></div>
+
+  <!-- Get In Touch Section -->
+<section class="get-in-touch">
+  <h2>Get In Touch</h2>
+  <p>For more information or inquiries,</p>
+  <p>Please contact us at:</p>
+  <p><strong>(Phone)</strong> +91 7355639340</p>
+  <div class="social-icons">
+    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHA8a-u1SWwHz3AVpXEnT-aTPbXAPmzkIb2A&s" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx16VdHh2dDEZKu6KDUCXcTmMfqWuPygi-0w&s" alt="Instagram">
+    </a>
+    <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCnQbLJZ3rJAv_wLXuHFJKxTO1GKMS0zhf8Q&s" alt="YouTube">
+    </a>
+    <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+      <img src="https://cdn.icon-icons.com/icons2/4029/PNG/512/twitter_x_new_logo_x_rounded_icon_256078.png" alt="Twitter">
+    </a>
+  </div>
+  <p><strong>(Email)</strong><a href="mailto:abhinav.2428csit816@kiet.edu">abhinav.2428csit816@kiet.edu</a></p>
+  <p><strong>(Email)</strong><a href="mailto:abhinav.2428csit960@kiet.edu">abhinav.2428csit960@kiet.edu</a></p>
+  <br></section>
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+  <script src="buy.css"></script>
+
+</body>
+</html>
